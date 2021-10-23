@@ -8,7 +8,7 @@ var cors = require("cors");
 
 //Database connection
 mongoose
-  .connect(process.env.DATABASE, {
+  .connect("mongodb+srv://masum01:Masum01@cluster0.kbk6j.mongodb.net/test", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
